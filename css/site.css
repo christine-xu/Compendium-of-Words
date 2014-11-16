@@ -1,0 +1,18 @@
+/** Variables **/
+/** Mixins **/
+/** Global **/
+header span,
+#content .container span {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/** Custom Body Content **/
+header {
+  height: 400px;
+  text-align: center;
+  font: 48px "IM Fell DW Pica", serif; }
+
+/*# sourceMappingURL=site.css.map */

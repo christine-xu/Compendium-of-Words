@@ -1,0 +1,12 @@
+/** Variables **/
+$font-stack: 'IM Fell DW Pica', serif;
+
+/** Mixins **/
+
+/** Global **/
+%vertical-align { position: relative; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+/** Custom Body Content **/
+header { height: 400px; text-align: center; font: 48px $font-stack; }
+header span, 
+#content .container span { @extend %vertical-align; }
